@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-downloader2",
+      "/opt/lampp/htdocs/ddn"
+    ]
+  ],
+  "_from": "cordova-plugin-downloader2@latest",
+  "_id": "cordova-plugin-downloader2@0.0.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-downloader2",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-downloader2_0.0.6_1521615742089_0.040709473122057416"
+  },
+  "_npmUser": {
+    "email": "zhangqingcai0815@gmail.com",
+    "name": "ericzhang00"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-downloader2",
+    "raw": "cordova-plugin-downloader2",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-downloader2/-/cordova-plugin-downloader2-0.0.6.tgz",
+  "_shasum": "535c025447547dcbfa7b9904673f5dd4f9e9da50",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-downloader2",
+  "_where": "/opt/lampp/htdocs/ddn",
+  "author": {
+    "name": "zhangqingcai0815@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shougao/Cordova-plugin-downloader/issues"
+  },
+  "cordova": {
+    "id": "cordova.plugin.downloader",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "download using native",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 5,
+    "integrity": "sha512-DyWVJ7FnjGKBH0glmbhb44zxmkDl+82rPgvr0zJWbjXLZh23J2qSRmUQI5DhEkKIW/BrHZ8jDmrzQyg/GAOLiQ==",
+    "shasum": "535c025447547dcbfa7b9904673f5dd4f9e9da50",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-downloader2/-/cordova-plugin-downloader2-0.0.6.tgz",
+    "unpackedSize": 11442
+  },
+  "gitHead": "b790b6eb22b535176311b5647257950583cc3a3e",
+  "homepage": "https://github.com/shougao/Cordova-plugin-downloader#readme",
+  "keywords": [
+    "cordova-android",
+    "ecosystem:cordova"
+  ],
+  "license": "GPL",
+  "maintainers": [
+    {
+      "name": "ericzhang00",
+      "email": "zhangqingcai0815@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-downloader2",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shougao/Cordova-plugin-downloader.git"
+  },
+  "version": "0.0.6"
+}

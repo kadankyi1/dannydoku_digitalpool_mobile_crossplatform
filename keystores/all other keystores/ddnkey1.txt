@@ -1,0 +1,311 @@
+keytool -genkey -v -keystore digitalpool.keystore -alias ddn -keyalg RSA -keysize 2048 -validity 1
+digitalpool
+ddn
+qwerty1
+
+functioning keystore
+ddndigitalpool1
+ddp
+qwerty1
+
+ios key password :G0d6ppr06ch
+
+
+digitalpool.keystoredigitalpool.keystore
+keytool -list -v -keystore C:\Users\YOURUSERPROFILENAME\.android\debug.keystore -ddn androidreleasekey -qwerty1 android -keypass android
+
+
+
+
+keytool -list -v -keystore C:\Windows\System32\digitalpool.keystore -alias ddn androiddebugkey -storepass qwerty1 -keypass qwerty1
+
+
+keytool -list -v -keystore "kwesi\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+keytool -exportcert -v \
+-ddn <digitalpool> -keystore <C:\Windows\System32\digitalpool.keystore>
+
+keytool -exportcert -v \
+<digitalpool> -keystore <C:\Windows\System32\digitalpool.keystore>
+
+digitalpool2
+
+this is to retreive details of the keystore
+keytool -list -v -keystore <name>.keystore 
+ddn
+qwerty123
+keytool -list -v -keystore digitalpool.keystore -alias androiddebugkey -storepass android qwerty1 android
+
+
+keytool -list -v -keystore digitalpool.keystore -alias androiddebugkey -storepass qwerty1 -keypass qwerty1
+
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias androiddebugkey -storepass android -keypass android
+keytool error: java.io.IOException: keystore password was incorrect
+java.io.IOException: keystore password was incorrect
+        at java.base/sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStor
+e.java:2097)
+        at java.base/sun.security.util.KeyStoreDelegator.engineLoad(KeyStoreDele
+gator.java:222)
+        at java.base/java.security.KeyStore.load(KeyStore.java:1479)
+        at java.base/java.security.KeyStore.getInstance(KeyStore.java:1807)
+        at java.base/java.security.KeyStore.getInstance(KeyStore.java:1687)
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:908)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+Caused by: java.security.UnrecoverableKeyException: failed to decrypt safe conte
+nts entry: javax.crypto.BadPaddingException: Given final block not properly padd
+ed. Such issues can arise if a bad key is used during decryption.
+        ... 8 more
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias androiddebugkey -qwerty1 android -keypass android
+Illegal option:  -qwerty1
+keytool -list [OPTION]...
+
+Lists entries in a keystore
+
+Options:
+
+ -rfc                    output in RFC style
+ -alias <alias>          alias name of the entry to process
+ -keystore <keystore>    keystore name
+ -cacerts                access the cacerts keystore
+ -storepass <arg>        keystore password
+ -storetype <type>       keystore type
+ -providername <name>    provider name
+ -addprovider <name>     add security provider by name (e.g. SunPKCS11)
+   [-providerarg <arg>]    configure argument for -addprovider
+ -providerclass <class>  add security provider by fully-qualified class name
+   [-providerarg <arg>]    configure argument for -providerclass
+ -providerpath <list>    provider classpath
+ -v                      verbose output
+ -protected              password through protected mechanism
+
+Use "keytool -help" for all available commands
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias androiddebugkey -storepass android -qwerty1 android
+Illegal option:  -qwerty1
+keytool -list [OPTION]...
+
+Lists entries in a keystore
+
+Options:
+
+ -rfc                    output in RFC style
+ -alias <alias>          alias name of the entry to process
+ -keystore <keystore>    keystore name
+ -cacerts                access the cacerts keystore
+ -storepass <arg>        keystore password
+ -storetype <type>       keystore type
+ -providername <name>    provider name
+ -addprovider <name>     add security provider by name (e.g. SunPKCS11)
+   [-providerarg <arg>]    configure argument for -addprovider
+ -providerclass <class>  add security provider by fully-qualified class name
+   [-providerarg <arg>]    configure argument for -providerclass
+ -providerpath <list>    provider classpath
+ -v                      verbose output
+ -protected              password through protected mechanism
+
+Use "keytool -help" for all available commands
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias androiddebugkey -storepass android qwerty1 android
+Illegal option:  qwerty1
+keytool -list [OPTION]...
+
+Lists entries in a keystore
+
+Options:
+
+ -rfc                    output in RFC style
+ -alias <alias>          alias name of the entry to process
+ -keystore <keystore>    keystore name
+ -cacerts                access the cacerts keystore
+ -storepass <arg>        keystore password
+ -storetype <type>       keystore type
+ -providername <name>    provider name
+ -addprovider <name>     add security provider by name (e.g. SunPKCS11)
+   [-providerarg <arg>]    configure argument for -addprovider
+ -providerclass <class>  add security provider by fully-qualified class name
+   [-providerarg <arg>]    configure argument for -providerclass
+ -providerpath <list>    provider classpath
+ -v                      verbose output
+ -protected              password through protected mechanism
+
+Use "keytool -help" for all available commands
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore digitalpool.keystore
+ -alias androiddebugkey -storepass android qwerty1 android
+Illegal option:  qwerty1
+keytool -list [OPTION]...
+
+Lists entries in a keystore
+
+Options:
+
+ -rfc                    output in RFC style
+ -alias <alias>          alias name of the entry to process
+ -keystore <keystore>    keystore name
+ -cacerts                access the cacerts keystore
+ -storepass <arg>        keystore password
+ -storetype <type>       keystore type
+ -providername <name>    provider name
+ -addprovider <name>     add security provider by name (e.g. SunPKCS11)
+   [-providerarg <arg>]    configure argument for -addprovider
+ -providerclass <class>  add security provider by fully-qualified class name
+   [-providerarg <arg>]    configure argument for -providerclass
+ -providerpath <list>    provider classpath
+ -v                      verbose output
+ -protected              password through protected mechanism
+
+Use "keytool -help" for all available commands
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore "kwesi\.android\digi
+talpool.keystore" -alias androiddebugkey -storepass qwerty1 -keypass qwerty1
+keytool error: java.lang.Exception: Keystore file does not exist: kwesi\.android
+\digitalpool.keystore
+java.lang.Exception: Keystore file does not exist: kwesi\.android\digitalpool.ke
+ystore
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:883)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore "Kwesi\.android\digi
+talpool.keystore" -alias androiddebugkey -storepass qwerty1 -keypass qwerty1
+keytool error: java.lang.Exception: Keystore file does not exist: Kwesi\.android
+\digitalpool.keystore
+java.lang.Exception: Keystore file does not exist: Kwesi\.android\digitalpool.ke
+ystore
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:883)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore "Kwesi Etsibah\.andr
+oid\digitalpool.keystore" -alias androiddebugkey -storepass qwerty1 -keypass qwe
+rty1
+keytool error: java.lang.Exception: Keystore file does not exist: Kwesi Etsibah\
+.android\digitalpool.keystore
+java.lang.Exception: Keystore file does not exist: Kwesi Etsibah\.android\digita
+lpool.keystore
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:883)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore "digitalpool.keystor
+e" -alias androiddebugkey -storepass qwerty1 -keypass qwerty1
+keytool error: java.lang.Exception: Keystore file does not exist: digitalpool.ke
+ystore
+java.lang.Exception: Keystore file does not exist: digitalpool.keystore
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:883)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore digitalpool.keystore
+ -alias androiddebugkey -storepass qwerty1 -keypass qwerty1
+keytool error: java.lang.Exception: Alias <androiddebugkey> does not exist
+java.lang.Exception: Alias <androiddebugkey> does not exist
+        at java.base/sun.security.tools.keytool.Main.doPrintEntry(Main.java:1952
+)
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:1231)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias androidreleasekey -storepass qwerty1 -keypass qwerty
+1
+keytool error: java.lang.Exception: Alias <androidreleasekey> does not exist
+java.lang.Exception: Alias <androidreleasekey> does not exist
+        at java.base/sun.security.tools.keytool.Main.doPrintEntry(Main.java:1952
+)
+        at java.base/sun.security.tools.keytool.Main.doCommands(Main.java:1231)
+        at java.base/sun.security.tools.keytool.Main.run(Main.java:397)
+        at java.base/sun.security.tools.keytool.Main.main(Main.java:390)
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias ddn androidreleasekey -storepass qwerty1 -keypass qw
+erty1
+Illegal option:  androidreleasekey
+keytool -list [OPTION]...
+
+Lists entries in a keystore
+
+Options:
+
+ -rfc                    output in RFC style
+ -alias <alias>          alias name of the entry to process
+ -keystore <keystore>    keystore name
+ -cacerts                access the cacerts keystore
+ -storepass <arg>        keystore password
+ -storetype <type>       keystore type
+ -providername <name>    provider name
+ -addprovider <name>     add security provider by name (e.g. SunPKCS11)
+   [-providerarg <arg>]    configure argument for -addprovider
+ -providerclass <class>  add security provider by fully-qualified class name
+   [-providerarg <arg>]    configure argument for -providerclass
+ -providerpath <list>    provider classpath
+ -v                      verbose output
+ -protected              password through protected mechanism
+
+Use "keytool -help" for all available commands
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias ddn androiddebugkey -storepass qwerty1 -keypass qwer
+ty1
+Illegal option:  androiddebugkey
+keytool -list [OPTION]...
+
+Lists entries in a keystore
+
+Options:
+
+ -rfc                    output in RFC style
+ -alias <alias>          alias name of the entry to process
+ -keystore <keystore>    keystore name
+ -cacerts                access the cacerts keystore
+ -storepass <arg>        keystore password
+ -storetype <type>       keystore type
+ -providername <name>    provider name
+ -addprovider <name>     add security provider by name (e.g. SunPKCS11)
+   [-providerarg <arg>]    configure argument for -addprovider
+ -providerclass <class>  add security provider by fully-qualified class name
+   [-providerarg <arg>]    configure argument for -providerclass
+ -providerpath <list>    provider classpath
+ -v                      verbose output
+ -protected              password through protected mechanism
+
+Use "keytool -help" for all available commands
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+digitalpool.keystore -alias ddn -storepass qwerty1 -keypass qwerty1
+Alias name: ddn
+Creation date: Apr 9, 2018
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=danny doku, OU=it, O=ddn, L=accra, ST=accra, C=gh
+Issuer: CN=danny doku, OU=it, O=ddn, L=accra, ST=accra, C=gh
+Serial number: 28ffc5a
+Valid from: Mon Apr 09 16:46:03 BST 2018 until: Tue Apr 10 16:46:03 BST 2018
+Certificate fingerprints:
+         SHA1: B2:9D:B8:EC:A8:B1:20:F7:65:83:25:58:83:2A:5F:14:07:4B:E9:BA
+         SHA256: 8A:47:D8:B6:4A:4B:AC:9C:70:C7:B2:32:01:DF:B9:1D:AA:64:45:EC:1B:
+5B:47:11:CA:82:2A:07:CA:A0:4F:D3
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 3F 63 72 4C 85 B2 29 8A   3F 75 B3 4E D1 9E 77 9A  ?crL..).?u.N..w.
+0010: 9C F6 1B D1                                        ....
+]
+]
+
+
+C:\Program Files\Java\jdk-10\bin>

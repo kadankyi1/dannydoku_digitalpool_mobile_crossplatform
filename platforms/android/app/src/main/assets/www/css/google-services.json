@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "824471477493",
+    "firebase_url": "https://general-developments.firebaseio.com",
+    "project_id": "general-developments",
+    "storage_bucket": "general-developments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824471477493:android:c3224504f09a051c",
+        "android_client_info": {
+          "package_name": "com.dannydoku.digitalpool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824471477493-3t5kl78pidpud8a2i2a10gd23hpdak21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dannydoku.digitalpool",
+            "certificate_hash": "b29db8eca8b120f765832558832a5f14074be9ba"
+          }
+        },
+        {
+          "client_id": "824471477493-itlkaf0o3v3l3suq48b8ikm25r2gkgke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIwpJiDT6uJrAs9xL8nF9339Teao56gXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824471477493-itlkaf0o3v3l3suq48b8ikm25r2gkgke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

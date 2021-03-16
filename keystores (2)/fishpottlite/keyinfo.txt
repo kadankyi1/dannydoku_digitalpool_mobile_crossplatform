@@ -1,0 +1,4 @@
+keytool -genkey -v -keystore fishpottlite.keystore -alias key0 -keyalg RSA -keysize 2048 -validity 10000
+name: fishpottlite
+alias : key0
+password: g0d6ppr06ch

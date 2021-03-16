@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "com.wmjalak.cordova.fileopener": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-fileopener": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-downloader2": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "org.apache.cordova.file": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-music-controls": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-downloader": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "nl.x-services.plugins.backgroundaudio": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    }
+  }
+}

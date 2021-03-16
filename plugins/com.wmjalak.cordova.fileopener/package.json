@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "https://github.com/wmjalak/cordova-plugin-file-opener",
+      "/opt/lampp/htdocs/ddn"
+    ]
+  ],
+  "_from": "git+https://github.com/wmjalak/cordova-plugin-file-opener.git",
+  "_id": "cordova-plugin-file-opener@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-file-opener",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/wmjalak/cordova-plugin-file-opener/master/package.json",
+      "gitUrl": "git://github.com/wmjalak/cordova-plugin-file-opener.git",
+      "httpsUrl": "git+https://github.com/wmjalak/cordova-plugin-file-opener.git",
+      "shortcut": "github:wmjalak/cordova-plugin-file-opener",
+      "ssh": "git@github.com:wmjalak/cordova-plugin-file-opener.git",
+      "sshUrl": "git+ssh://git@github.com/wmjalak/cordova-plugin-file-opener.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "https://github.com/wmjalak/cordova-plugin-file-opener",
+    "rawSpec": "https://github.com/wmjalak/cordova-plugin-file-opener",
+    "scope": null,
+    "spec": "git+https://github.com/wmjalak/cordova-plugin-file-opener.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/wmjalak/cordova-plugin-file-opener.git#479a5b825eac4742e516dc89482d499992cb10ff",
+  "_shasum": "9c930681099350f8fdb1d9cb3d9764a2e74b56e4",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/wmjalak/cordova-plugin-file-opener",
+  "_where": "/opt/lampp/htdocs/ddn",
+  "author": {
+    "email": "wmjalak@gmail.com",
+    "name": "wmjalak"
+  },
+  "bugs": {
+    "url": "https://github.com/wmjalak/cordova-plugin-file-opener/issues"
+  },
+  "dependencies": {},
+  "description": "This plugin allows you to open files in Android. Plugin is especially made to handle application package (.apk) installation process by providing functionality for opening the application after the installation has finished.",
+  "devDependencies": {},
+  "gitHead": "479a5b825eac4742e516dc89482d499992cb10ff",
+  "homepage": "https://github.com/wmjalak/cordova-plugin-file-opener#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "cordova-plugin-file-opener",
+  "optionalDependencies": {},
+  "readme": "# cordova-plugin-file-opener\n\nThis plugin allows you to open files in Android.\nPlugin is especially made to handle application package (.apk) installation process by providing functionality for opening the application after the installation has finished.\n\n## Installation\n\n    cordova plugin add cordova-plugin-file-opener\n\n## Supported Platforms\n\n- Android\n\n## Example\n\n```````javascript\nfileOpener.open(\"file:///sdcard/Android/data/com.example.application/application.apk\");\n```````\n\n## Release notes\n\nMar 7, 2016\nInitial release\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmjalak/cordova-plugin-file-opener.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

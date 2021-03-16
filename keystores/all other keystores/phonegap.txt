@@ -1,0 +1,5 @@
+<preference name="phonegap-version" value="cli-7.0.1" />
+<platform name="android">
+    <resource-file src="google-services.json" target="/google-services.json" />
+</platform>
+<plugin name="phonegap-plugin-push" spec="^2.0.0" />

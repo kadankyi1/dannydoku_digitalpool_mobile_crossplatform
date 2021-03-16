@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-file@^1.0.1",
+      "/opt/lampp/htdocs/ddn_new"
+    ]
+  ],
+  "_from": "cordova-plugin-file@>=1.0.1 <2.0.0",
+  "_id": "cordova-plugin-file@1.3.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-file",
+  "_nodeVersion": "0.10.36",
+  "_npmUser": {
+    "email": "stevengill97@gmail.com",
+    "name": "stevegill"
+  },
+  "_npmVersion": "2.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-file",
+    "raw": "cordova-plugin-file@^1.0.1",
+    "rawSpec": "^1.0.1",
+    "scope": null,
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-file/-/cordova-plugin-file-1.3.3.tgz",
+  "_shasum": "f391d676478eeff2e593b7969000d591d8f7c866",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-file@^1.0.1",
+  "_where": "/opt/lampp/htdocs/ddn_new",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "cordova": {
+    "id": "org.apache.cordova.file",
+    "platforms": [
+      "amazon-fireos",
+      "android",
+      "blackberry10",
+      "firefoxos",
+      "ios",
+      "ubuntu",
+      "windows",
+      "windows8",
+      "wp7",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova File Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f391d676478eeff2e593b7969000d591d8f7c866",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-file/-/cordova-plugin-file-1.3.3.tgz"
+  },
+  "gitHead": "b05bcff37883cd4f3d3d0ee8305c7013ffa850ee",
+  "keywords": [
+    "cordova",
+    "cordova-amazon-fireos",
+    "cordova-android",
+    "cordova-blackberry10",
+    "cordova-firefoxos",
+    "cordova-ios",
+    "cordova-ubuntu",
+    "cordova-windows",
+    "cordova-windows8",
+    "cordova-wp7",
+    "cordova-wp8",
+    "ecosystem:cordova",
+    "file"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-file",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-file.git"
+  },
+  "scripts": {},
+  "version": "1.3.3"
+}

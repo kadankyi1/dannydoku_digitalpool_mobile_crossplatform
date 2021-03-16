@@ -1,0 +1,345 @@
+<div class="page">
+ <div class="panel panel-left panel-cover">
+      <div data-name="home" class="page">
+        <!--<div class="page-content">
+          <div><img src="img/mountains.jpg" style="width: 100%"></div>
+          <div class="list links-list">
+            <ul>
+              <li>
+                <a href="/about/" class="panel-close">About</a>
+              </li>
+              <li>
+                <a href="/contact/" class="panel-close">Contact</a>
+              </li>
+               <li>
+              <a href="http://dannydoku.com/" class="external panel-close" target="_blank">Visit Website</a>              
+              </li>
+              <li>
+                <a href="/login/" class="panel-close">Sign Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>-->
+      </div>
+    </div>
+          <div class="navbar" style="background-color: #1d3456;">
+          <div class="navbar-inner">
+           <!-- <div class="left">
+              <a href="/main/" class="link icon-only panel-open" data-panel="left">
+                <i class="icon f7-icons ios-only">menu</i>
+                <i class="icon material-icons md-only">menu</i>
+              </a>
+            </div>-->
+            <div class="title sliding"><span style="font-weight: 600; font-style: bold;">DDN</span></div>
+     <div class="right">
+       <a  onclick="reload();" href="#" class="link">
+         <i class="icon f7-icons ios-only ">reload</i>
+          <i class="icon material-icons md-only">replay</i> 
+          </a>  
+        <!-- <a href="#" class="popup-open link" data-popup=".demo-popup">
+         <i class="icon f7-icons ios-only ">compose</i>
+          <i class="icon material-icons md-only">email</i> 
+          </a>  -->  
+      </div>
+    </div>
+  </div>
+  <div class="toolbar tabbar" style="background-color: #1d3456;">
+    <div class="toolbar-inner">
+      <a href="#tab-1" onclick="fetchNews('audios_option', ''); pauseOtherPlayers('');" class="tab-link tab-link-active"><span style="font-weight: 600; font-style: bold;">AUDIO</span></a>     
+       <a href="#tab-2"  onclick="fetchNews('videos_option', ''); pauseOtherPlayers('');" class="tab-link "><span style="font-weight: 600; font-style: bold;">VIDEO</span></a>
+
+      <a href="#tab-3"  onclick="setFavoriteVideos(); pauseOtherPlayers('');" class="tab-link"><span style="font-weight: 600; font-style: bold;">FAVOURITES</span></a>
+    </div>
+  </div>
+  <!--bubble-->
+   <div class="fab fab-right-bottom">
+    <a href="#" style="background-color: #1d3456;">
+      <i class="icon f7-icons ios-only">add</i>
+      <i class="icon f7-icons ios-only">close</i>
+      <i class="icon material-icons md-only">add</i>
+      <i class="icon material-icons md-only">close</i>
+    </a>
+    <div class="fab-buttons fab-buttons-top">
+      <!--<div style="display: inline; color: #d3d3d3; opacity: .7; background-color: #000;">&nbsp;Giving&nbsp;</div>-->
+      <a href="/about/" style="background-color: #1d3456;"> 
+      <i class="icon f7-icons ios-only">money_dollar</i>
+       <i class="icon material-icons md-only">monetization_on</i>
+      </a>
+      <a href="/contact/" style="background-color: #1d3456;">
+      <i class="icon f7-icons ios-only ">compose</i>
+       <i class="icon material-icons md-only">email</i>
+       </a> 
+      <a href="/download/" style="background-color: #1d3456;" onclick="startDownloadPage('1')">
+       <i class="icon f7-icons ios-only">download</i>
+       <i class="icon material-icons md-only">get_app</i>
+     </a>
+    </div>
+    </div>
+
+<!--main-->
+    <div class="tabs">
+ 
+
+
+      <!--audio tag -->
+      <div id="tab-1" data-infinite-distance="50" class="page-content tab tab-active hide-navbar-on-scroll" >
+         <div class="block">
+    <div class="list media-list">
+
+      <ul id="audio_list">
+<!--
+         <li><a href="#" class="item-link item-content popup-open"  data-popup = "demo-aud">
+            <div class="item-media"><img src="img/logo.png" width="44"/></div>
+            <div class="item-inner">
+              <div class="item-title-row">
+              <audio controls>
+                <source src="img/audio.mp3" type="audio/mpeg">
+              </audio>
+                <div class="item-title">Don't Stop Me Now</div>
+              </div>
+              <div class="item-subtitle">Queen</div>
+            </div>
+          </a>
+        </li>
+ -->
+
+      </ul>
+        <a href="#" onclick="loadMoreContentBelow();" class="list-button item-link" style="text-align: center;">Load More</a>
+
+    </div>
+
+      </div>
+      </div>
+
+            <!--videos -->
+
+     <div id="tab-2" data-infinite-distance="50" class="page-content tab hide-navbar-on-scroll">
+       <!-- CATEGORIES START -->    
+    <div class="list accordion-list">
+      <ul>
+
+        <li class="accordion-item">
+          <a href="#" class="item-link item-content">
+            <div class="item-inner">
+            <!-- favourtie videos -->
+              <div class="item-title" style="font-weight: 600; font-style: bold; color: #1d3456;">TEACHINGS</div>
+            </div>
+          </a>
+          <div class="accordion-item-content">
+       <div class="list media-list">
+
+      <ul id="video_list_teachings"></ul>
+    </div>
+  </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#" class="item-link item-content">
+            <div class="item-inner">
+            <!-- favourtie videos -->
+              <div class="item-title" style="font-weight: 600; font-style: bold; color: #1d3456;">PROPHETIC</div>
+            </div>
+          </a>
+          <div class="accordion-item-content">
+       <div class="list media-list">
+
+      <ul id="video_list_prophetic"></ul>
+    </div>
+  </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#" class="item-link item-content">
+            <div class="item-inner">
+            <!-- favourtie videos -->
+              <div class="item-title" style="font-weight: 600; font-style: bold; color: #1d3456;">MIRACULOUS</div>
+            </div>
+          </a>
+          <div class="accordion-item-content">
+       <div class="list media-list">
+
+      <ul id="video_list_miraculous"></ul>
+    </div>
+  </div>
+        </li>
+
+      </ul>
+
+    </div>
+    <!-- CATEGORIES START -->    
+
+       <div class="list media-list">
+
+
+
+
+      <ul>
+<!--
+        <li>
+          <a href="#" class="item-content">
+            <div class="item-inner">
+  <video class="video-js" controls preload="auto" style="width: 100%" poster="img/feature.png" data-setup="{}"><source src="img/test.mp4" type='video/mp4'><source src="img/test.webm" type='video/webm'></video>
+ <div class="item-title-row">
+                <div class="item-title" style="color: black;">
+                Excellent Life Conference
+                </div>
+              </div>
+              <div class="item-subtitle" style="color: grey;">Prophet Danny Doku • 25 March<span style="float: right;">50:00</span> </div>
+              <div class="item-subtitle" style="color: grey; float: right;">
+                <i class="icon f7-icons ios-only ">favorite</i><i class="icon material-icons md-only">favorite</i>
+              </div>
+             </div>
+          </a>
+        </li>
+-->
+      </ul>
+
+
+       <a href="#" onclick="loadMoreContentBelow();" class="list-button item-link" style="text-align: center;">Load More</a>
+
+    </div>
+      </div>
+      <!-- favourite -->
+      <div id="tab-3" data-infinite-distance="50" class="page-content tab hide-navbar-on-scroll">
+      
+    <div class="list accordion-list">
+      <ul>
+        <li class="accordion-item">
+          <a href="#" class="item-link item-content">
+            <div class="item-inner">
+            <!-- favourtie videos -->
+              <div class="item-title">Videos</div>
+            </div>
+          </a>
+          <div class="accordion-item-content">
+       <div class="list media-list">
+
+      <ul id="favorites_videos">
+
+      </ul>
+    </div>
+  </div>
+        </li>
+<!-- favorite audois -->
+        <li class="accordion-item">
+          <a href="#" class="item-link item-content">
+            <div class="item-inner">
+              <div class="item-title">Audios</div>
+            </div>
+          </a>
+          <div class="accordion-item-content">
+            <div class="list">
+              <ul id="favorites_audio">
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+      </div>
+<!-- contact
+       <div class="popup demo-popup">
+      <div class="page">
+        <div class="navbar"  style="background-color: #1d3456;">
+          <div class="navbar-inner">
+            <div class="title">Contact Us</div>
+            <div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons ios-only">close</i>
+          <i class="icon material-icons md-only" style="display: inline;">close</i></a></div>
+          </div>
+        </div>
+        <div class="page-content">
+          <div class="block">
+            <p class="">Please leave a message and we'll get back to you as soon as we can. Thank you</p>
+ <div class="list inline-labels no-hairlines-md">
+      <ul> 
+<li class="item-content item-input">  
+          <div class="item-inner">
+            <div class="item-input-wrap">
+              <textarea id="thismessage" class="resizable" placeholder="Type Message"></textarea>
+            </div>
+          </div>
+        </li>
+        </ul>
+          </div>
+                  <button class="col button button-outline button-round" style="border-color: #1d3456; color: #1d3456;" onclick="sendMessage();">Send</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+ audio player-->
+     <div class="popup demo-aud">
+      <div class="page" style="background-image: url(img/back.png); background-size: 100% 100%;">
+        <div class="navbar"  style="background-color: transparent;">
+          <div class="navbar-inner">
+            <div class="left"> 
+            <a onclick="addToAudiosFavortiesOrNot(this)" href="#" class="link">
+               <i class="icon f7-icons ios-only ">reload</i>
+                <i id="fav_audio_icon" class="icon material-icons md-only" style="font-size: 25px; color: #fff; float: right;">favorite</i>
+            </a>
+             <a href="#" class="link" onclick="downloadAudio();">
+            <i class="icon f7-icons ios-only " style="padding-right: 30px;">download</i>
+            <i class="icon material-icons md-only">get_app</i>
+          </a>
+       </div>
+            <div class="right">
+              <a href="#" class="link popup-close">
+                <i class="icon f7-icons ios-only">close</i>
+                <i class="icon material-icons md-only" style="display: inline;">close</i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="page-content">
+            <div style="border: 5px solid; border-color: rgba(255, 255, 255, 0.2); width: 250px; height: 250px; margin: 70px auto; border-radius: 50%;"><img id="audio_player_img" src="img/poster.jpg" height="100%" width="100%" style="border-radius: 50%;"></div>
+  
+  <footer style="position: fixed; left: 0;bottom: 0; width: 100%;">
+  <div style="text-align: center; vertical-align: middle;">
+    <input type="text" id="this_posterpath" readonly="readonly" style="display: none;">
+    <input type="text" id="this_audiopath" readonly="readonly" style="display: none;">
+    <input type="text" id="this_audiotitle" readonly="readonly" style="display: none;">
+    <input type="text" id="this_audiodate" readonly="readonly" style="display: none;"> 
+   <!-- 
+  <a href="#" class="link">
+         <i class="icon f7-icons ios-only ">reload</i>
+          <i class="icon material-icons md-only" style="font-size: 30px; padding-right: 10px; color: #fff; vertical-align: middle;">loop</i> 
+      </a>
+      
+      <a href="#" class="link">
+         <i class="icon f7-icons ios-only ">reload</i>
+          <i class="icon material-icons md-only" style="font-size: 35px; padding-right: 10px; color: #fff; padding-left: 10px; vertical-align: middle;">fast_rewind</i> 
+      </a> 
+    -->
+<div class="block">
+      <progress id='progress-bar' max="100" min='0' value='0' style="height: 5px; color: #ef490d;">0% played</progress>
+</div>
+      <a href="#" id="play_icon" class="link" onclick="playAudio();">
+         <i class="icon f7-icons ios-only" style="margin-left: -20px;">reload</i>
+          <i class="icon material-icons md-only" style="font-size: 45px; color: #ef490d;">play_circle_outline</i> 
+      </a> 
+      <a href="#" id="pause_icon" class="link" onclick="pauseAudio();" style="display: none;">
+          <i class="icon material-icons md-only" style="font-size: 45px; color: #ef490d;">pause_circle_outline</i> 
+      </a> 
+      <!--  
+       <a href="#" class="link">
+         <i class="icon f7-icons ios-only ">reload</i>
+          <i class="icon material-icons md-only" style="font-size: 35px; padding-right: 10px; color: #fff; padding-left: 10px; vertical-align: middle;">fast_forward</i> 
+      </a> 
+    -->
+      </a> 
+      
+                  <p id="audio_player_title" style="color: white; font-size: 20px;">Audio</p>
+                  <input type="text" name="part_of_audios" id="part_of_audios">
+
+</div>
+
+          </footer>
+
+      </div>
+    </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var video = $('.myVideo');
+  video[0].removeAttribute("controls");
+</script>

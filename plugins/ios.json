@@ -1,0 +1,35 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.wmjalak.cordova.fileopener": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-media": {
+      "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-downloader": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "nl.x-services.plugins.backgroundaudio": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.dannydoku.digitalpool"
+    }
+  }
+}

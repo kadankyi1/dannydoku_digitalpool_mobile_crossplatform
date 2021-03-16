@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-downloader",
+      "/opt/lampp/htdocs/ddn_new"
+    ]
+  ],
+  "_from": "cordova-plugin-downloader@latest",
+  "_id": "cordova-plugin-downloader@0.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-downloader",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-downloader-0.0.3.tgz_1516134075021_0.6890173808205873"
+  },
+  "_npmUser": {
+    "email": "benjamin.m.wilson@gmail.com",
+    "name": "benjamin.m.wilson"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-downloader",
+    "raw": "cordova-plugin-downloader",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-downloader/-/cordova-plugin-downloader-0.0.3.tgz",
+  "_shasum": "b6b67544ca7d1b3a3522ba1b4889758e755812c1",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-downloader",
+  "_where": "/opt/lampp/htdocs/ddn_new",
+  "author": {
+    "name": "Ben Wilson"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminmwilson/cordova-plugin-downloader/issues"
+  },
+  "config": {
+    "lintdirs": "www/**.js lib/**.js"
+  },
+  "cordova": {
+    "id": "cordova-plugin-downloader",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Downloader Plugin with no cordova-file-transfer dependency",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "jshint": "^2.9.3",
+    "mocha": "^4.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-FfsZfdAK4rGdiTQhG8fX4feb7N8qMKd4W3/fr7e4wsTObeldaiYy6EYPEn8fMdSs3QwAi2L1WGbVJfAW9D/AVA==",
+    "shasum": "b6b67544ca7d1b3a3522ba1b4889758e755812c1",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-downloader/-/cordova-plugin-downloader-0.0.3.tgz"
+  },
+  "gitHead": "40e4922da69d36bc36de0bdbbd194c8f395f0a9d",
+  "homepage": "https://github.com/benjaminmwilson/cordova-plugin-downloader#readme",
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "download",
+    "downloader",
+    "ecosystem:cordova",
+    "file",
+    "unzip"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "benjamin.m.wilson",
+      "email": "benjamin.m.wilson@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-downloader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminmwilson/cordova-plugin-downloader.git"
+  },
+  "scripts": {
+    "lint": "rm -f npm-debug.log && jshint $npm_package_config_lintdirs",
+    "test": "mocha lib/**/**.spec.js"
+  },
+  "version": "0.0.3"
+}

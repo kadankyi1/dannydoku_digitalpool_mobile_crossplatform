@@ -1,0 +1,4 @@
+keytool -genkey -v -keystore trident.keystore -alias trident -keyalg RSA -keysize 2048 -validity 1000
+trident
+trident
+qwerty123

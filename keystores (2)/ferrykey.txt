@@ -1,0 +1,35 @@
+keytool -genkey -v -keystore key0.keystore -alias ferry -keyalg RSA -keysize 2048 -validity 10000
+name: key0
+alias : ferry
+password: g0d6ppr06ch
+
+<------SHA1----->
+
+C:\Program Files\Java\jdk-10\bin>keytool -list -v -keystore C:\Windows\System32\
+key0.keystore -alias ferry -storepass g0d6ppr06ch -keypass g0d6ppr06ch
+Alias name: ferry
+Creation date: May 5, 2018
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=kwaku dankyi, OU=it, O=fishpot, L=accra, ST=accra, C=gh
+Issuer: CN=kwaku dankyi, OU=it, O=fishpot, L=accra, ST=accra, C=gh
+Serial number: 39c1f926
+Valid from: Sat May 05 15:27:02 BST 2018 until: Wed Sep 20 15:27:02 BST 2045
+Certificate fingerprints:
+         SHA1: 27:C3:4E:2B:B5:D6:AD:7A:4C:48:47:DF:80:B0:9A:DD:74:96:08:0C
+         SHA256: B3:47:52:99:0A:55:CB:09:B5:3A:E2:90:1F:86:EE:7F:A2:75:FB:9B:E4:
+4D:7B:E3:3D:5C:AC:7B:6D:AD:9E:1E
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 01 0A 6A 86 FF 8F E1 9C   D5 2D 58 14 51 62 C2 13  ..j......-X.Qb..
+0010: 5D 70 0E 34                                        ]p.4
+]
+]
