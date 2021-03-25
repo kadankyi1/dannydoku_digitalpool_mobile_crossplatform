@@ -8,9 +8,8 @@
 
 
 ### DOWNLOAD ON APPLE APP STORE
-```
 - <a href="https://apps.apple.com/vg/app/danny-doku-digital-pool/id1430795813" target="_blank">https://apps.apple.com/vg/app/danny-doku-digital-pool/id1430795813</a>
-```
+
 
 ### DOWNLOAD ON GOOGLE PLAYSTORE
 - <a href="https://play.google.com/store/apps/details?id=com.dannydoku.digitalpool" target="_blank">https://play.google.com/store/apps/details?id=com.dannydoku.digitalpool</a>
