@@ -45,7 +45,8 @@
     </td>
   </table>
   </div>
-## Author
+  
+### Author
 
 * **Dankyi Anno Kwaku**
 
